@@ -1,7 +1,9 @@
 import telebot # библиотека telebot
 from config import token # импорт токена
 
-bot = telebot.TeleBot(token) 
+bot = telebot.TeleBot(token)
+
+#комментарий
 
 @bot.message_handler(commands=['start'])
 def start(message):
